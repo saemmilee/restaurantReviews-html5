@@ -16,12 +16,12 @@ introduce page
 
 ### 실행화면
 -----------
-<center>**main page**</center>
+**main page**
 ![1](https://user-images.githubusercontent.com/81849019/113645362-b5ed1480-96c1-11eb-8e6b-66601af00d4f.PNG)
 
 ![2](https://user-images.githubusercontent.com/81849019/113645391-c604f400-96c1-11eb-8ffb-84e1b460b72d.PNG)
 
-<center>**introduce page**</center>
+**introduce page**
 ![3](https://user-images.githubusercontent.com/81849019/113645422-d2894c80-96c1-11eb-8275-36a4cd0a911c.PNG)
 
 ![4](https://user-images.githubusercontent.com/81849019/113645443-dd43e180-96c1-11eb-892d-d4a3737eee95.PNG)

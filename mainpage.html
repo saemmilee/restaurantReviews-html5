@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="fontello-618b9dc2/fontello-618b9dc2/css/fontello.css">
+    <title>샘미의 맛따라 멋따라</title>
+
+    <style>
+            
+            header { text-align: center;}
+
+            body {background-color: whitesmoke}
+
+            section{margin-bottom: 3rem;}
+    
+            #menubar {background : black;}
+
+            #menubar ul {
+                margin : 0;
+	            padding : 0;
+	            width : 100%; }
+
+            #menubar ul li {
+	            display : inline-block; 
+	            list-style-type : none; 
+                padding : 0px 105px;
+                }
+
+            #menubar ul li a { 
+                color : white;
+  	            text-decoration : none; }
+
+            #menubar ul li a:hover { color : red; }
+
+            img {  
+                margin: 15px;
+                border-radius: 0.6rem;
+
+                -webkit-transform:scale(1);
+                -moz-transform:scale(1);
+                -ms-transform:scale(1); 
+                -o-transform:scale(1);  
+                 transform:scale(1);
+                -webkit-transition:.3s;
+                -moz-transition:.3s;
+                -ms-transition:.3s;
+                -o-transition:.3s;
+                transition:.3s;
+            }
+
+            img:hover {
+                -webkit-transform:scale(1.2);
+                -moz-transform:scale(1.2);
+                -ms-transform:scale(1.2);   
+                -o-transform:scale(1.2);
+                transform:scale(1.2);
+            }
+
+            #footer{
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                height: 40px;
+                background-color: whitesmoke;
+                color:black;
+                text-align: center;
+                line-height: 40px;
+               
+            }   
+
+
+            
+            #deemed {width:100%; height:100%; position:fixed; top:0; left:0; filter:Alpha(opacity=50);opacity:0.5; background:#000; z-index:1;}
+            
+        	#layerPop {width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100; border-radius:20px;}
+          	#layerPop .close{position:absolute; bottom:5px;right:5px;}
+	
+	        #layerPop2{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop2 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop3{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop3 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop4{width:650px; height:250px;; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop4 .close{position:absolute; bottom:5px;right:5px;}
+
+
+
+            #layerPop5 {width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100; border-radius:20px;}
+          	#layerPop5 .close{position:absolute; bottom:5px;right:5px;}
+	
+	        #layerPop6{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop6 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop7{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop7 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop8{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop8 .close{position:absolute; bottom:5px;right:5px;}
+
+            #layerPop9 {width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100; border-radius:20px;}
+          	#layerPop9 .close{position:absolute; bottom:5px;right:5px;}
+	
+	        #layerPop10{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop10 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop11{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop11 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop12{width:650px; height:250px; position:fixed;; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop12 .close{position:absolute; bottom:5px;right:5px;}
+
+
+
+            #layerPop13 {width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100; border-radius:20px;}
+          	#layerPop13 .close{position:absolute; bottom:5px;right:5px;}
+	
+	        #layerPop14{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop14 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop15{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop15 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop16{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop16 .close{position:absolute; bottom:5px;right:5px;}
+
+
+
+            #layerPop17 {width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100; border-radius:20px;}
+          	#layerPop17 .close{position:absolute; bottom:5px;right:5px;}
+	
+	        #layerPop18{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop18 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop19{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop19 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop20{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop20 .close{position:absolute; bottom:5px;right:5px;}
+
+
+
+            #layerPop21 {width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100; border-radius:20px;}
+          	#layerPop21 .close{position:absolute; bottom:5px;right:5px;}
+	
+	        #layerPop22{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop22 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop23{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop23 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop24{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop24 .close{position:absolute; bottom:5px;right:5px;}
+
+            #layerPop25{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop25 .close{position:absolute; bottom:5px;right:5px;}
+
+
+
+            #layerPop26{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop26 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop27{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop27 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop28{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop28 .close{position:absolute; bottom:5px;right:5px;}
+
+            #layerPop29{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop29 .close{position:absolute; bottom:5px;right:5px;}
+
+
+
+            #layerPop30 {width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100; border-radius:20px;}
+          	#layerPop30 .close{position:absolute; bottom:5px;right:5px;}
+	
+	        #layerPop31{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop31 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop32{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop32 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop33{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop33 .close{position:absolute; bottom:5px;right:5px;}
+
+            #layerPop34 {width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100; border-radius:20px;}
+          	#layerPop34 .close{position:absolute; bottom:5px;right:5px;}
+	
+	        #layerPop35{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop35 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop36{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop36 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop37{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop37 .close{position:absolute; bottom:5px;right:5px;}
+
+
+
+            #layerPop38{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop38 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop39{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop39 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop40{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop40 .close{position:absolute; bottom:5px;right:5px;}
+
+            #layerPop41 {width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100; border-radius:20px;}
+          	#layerPop41 .close{position:absolute; bottom:5px;right:5px;}
+	
+	        #layerPop42{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop42 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop43{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop43 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop44{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop44 .close{position:absolute; bottom:5px;right:5px;}
+
+
+
+            #layerPop45{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop45 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop46{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop46 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop47{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop47 .close{position:absolute; bottom:5px;right:5px;}
+
+            #layerPop48 {width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100; border-radius:20px;}
+          	#layerPop48 .close{position:absolute; bottom:5px;right:5px;}
+	
+	        #layerPop49{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop49 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop50{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop50 .close{position:absolute; bottom:5px;right:5px;}
+
+
+
+            #layerPop51{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop51 .close{position:absolute; bottom:5px;right:5px;}
+
+	        #layerPop52{width:650px; height:250px; position:fixed; padding:10px; border:4px solid #eee; background:#fff; display:none; z-index:100;border-radius:20px;}
+	        #layerPop52 .close{position:absolute; bottom:5px;right:5px;}
+
+
+     </style> 
+
+     <script type="text/javascript">
+         function dEI(elementID){
+         return document.getElementById(elementID);
+         }
+        function openLayer(IdName, tpos, lpos){
+        var pop = dEI(IdName);
+        pop.style.top = tpos + "%";
+        pop.style.left = lpos + "%";
+        pop.style.display = "block";
+    
+        var wrap = dEI("wrapper");
+        var reservation = document.createElement("div");
+        reservation.setAttribute("id", "deemed");
+        wrap.appendChild(reservation);
+         }
+        function closeLayer( IdName ){
+        var pop = dEI(IdName);
+        pop.style.display = "none";
+        var clearEl=parent.dEI("deemed");
+        var momEl = parent.dEI("wrapper");
+        momEl.removeChild(clearEl);
+        }
+    </script>
+
+</head>
+<body>
+        <header>
+            <img src="사진\logo.png" height="150px" >
+        </header>
+         
+             <nav id="menubar">
+                 
+                 <ul style="text-align: center">
+                    <li><a href="introduce.html" class="icon-emo-laugh">introduce</a></li>
+                    <li><a href="mainpage.html" class="icon-home">main page</a></li>
+                 </ul>
+                
+             </nav>
+           
+        <section>
+
+                <script>
+                        var ret = alert("사진들을 클릭해보세요!!!");               
+                </script>
+
+        <center>
+            <div id="wrapper">
+            <!-- 진희 시작 -->
+            <a href="#" onclick="openLayer('layerPop', 35 ,29)" ><img src="사진\진희1.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop">
+                 <h3>시오</h3>
+                 <p>진희's pick</p>
+                 <p>
+                 점심엔 저렇게 큐슈야끼카레랑 삼색 야끼도리만 주문가능하다.<br>
+                 맛이 없진 않았지만 굳이 또 가서 사먹을 맛은 아니다.
+                 </P> 
+                 <a href="https://store.naver.com/restaurants/detail?id=13570881" target="_blank">
+                    NAVER 시오 더 알아보기 </a>
+                 <a href="#" onclick="closeLayer('layerPop')" class="close"><input type="button" value="close"></a>
+             </div>
+
+            <a href="#" onclick="openLayer('layerPop2',35 ,29)"><img src="사진\진희2.jpg" width="300px" height="300px" ></a>
+                 <div id="layerPop2">
+                     <h3>미드나잇 핑크</h3>
+                     <p>진희's pick</p>
+                     <p>
+                     과콰몰리랑 페페론치노가 조화롭게 어울린다.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=885801071&tab=fsasReview#_tab" target="_blank">
+                            NAVER 미드나잇 핑크 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop2')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop3',35 ,29)"><img src="사진\진희3.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop3">
+                     <h3>돈코보쌈</h3>
+                     <p>진희's pick</p>
+                     <p>
+                     보쌈정식 15,000원에
+                     술국과 순대 오리고기까지 포함하며 <br>
+                     밑반찬들도 하나같이 다 맛있었고 보쌈 부드럽다.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=13453346" target="_blank">
+                            NAVER 돈코보쌈 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop3')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop4',35 ,29)"><img src="사진\진희4.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop4">
+                     <h3>청실홍실</h3>
+                     <p>진희's pick</p>
+                     <p>
+                     우동은 일반 우동 상상하는 맛 그대로.<br>
+                     만두도 일반 만두 맛인데 만두피가 쫄깃쫄깃하다.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=13570881" target="_blank">
+                            NAVER 청실홍실 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop4')" class="close"><input type="button" value="close"></a>
+                 </div>
+            <!-- 진희 끝 -->
+
+            <!-- 도원 시작 -->
+            <a href="#" onclick="openLayer('layerPop5',35 ,29)" ><img src="사진\도원1.jpg" width="300px" height="300px"></a>
+                <div id="layerPop5">
+                     <h3>김볶스테이션</h3>
+                     <p>도원's pick</p>
+                     <p>
+                     토핑을 맘대로 고를 수 있어 흥미롭고 가격도 저렴해서 학생들에게좋을듯 싶다. <br>
+                     맛도 있음!
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=1120226395" target="_blank">
+                            NAVER 김볶스테이션 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop5')" class="close"><input type="button" value="close"></a>
+                </div>
+
+            <a href="#" onclick="openLayer('layerPop6',35 ,29)"><img src="사진\도원2.jpg" width="300px" height="300px" ></a>
+                 <div id="layerPop6">
+                     <h3>petit cake</h3>
+                     <p>도원's pick</p>
+                     <p>
+                     저렴한 가격에 디자인도 예뻤고 맛도 있었다. <br>
+                     다만 작은 양 좋아하는 사람 추천한다.
+                     </p>
+                     <a href="#" onclick="closeLayer('layerPop6')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop7',35 ,29)"><img src="사진\도원3.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop7">
+                     <h3>모던통닭</h3>
+                     <p>도원's pick</p>
+                     <p>
+                     치킨집이지만 골뱅이도 맛있다. <br> 
+                     얇은 만두가 같이 나오는데 골뱅이소면과 잘어울렸고 술안주로 제격.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=1643911209" target="_blank">
+                            NAVER 모던통닭 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop7')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop8',35 ,29)"><img src="사진\도원4.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop8">
+                     <h3>미소야</h3>
+                     <p>도원's pick</p>
+                     <p>
+                     음 일식 집인데 퀄리티가 낮다.<br>  
+                     기대하면 실망! 한번에 여러 메뉴를 접하고싶다면 추..천 <br> 
+                     가격이 저렴한편은 아니다.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=12864330" target="_blank">
+                            NAVER 미소야 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop8')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop9',35 ,29)" ><img src="사진\도원5.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop9">
+                     <h3>청년다방</h3>
+                     <p>도원's pick</p>
+                     <p>
+                     떡볶이랑 고기가 잘어울린다. 파도 잘어울린당...떡이 긴게 매력이다.<br>
+                     사이드메뉴인 감튀도 찌맛이다... 또가거싶다.... <br> 
+                     but. 떡볶이 주제에 가격이 비싸다
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=1062562797" target="_blank">
+                            NAVER 청년다방 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop9')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop10',35 ,29)"><img src="사진\도원6.jpg" width="300px" height="300px" ></a>
+                <div id="layerPop10">
+                     <h3>지로우 라멘</h3>
+                     <p>도원's pick</p>
+                     <p>
+                     국물이 진하고 계란도 반숙 ㅜㅜ <br>
+                     차슈도 체고다. 대체로 맛있었다.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?entry=pll&id=31135248&query=%EC%A7%80%EB%A1%9C%EC%9A%B0%20%EB%9D%BC%EB%A9%98" target="_blank">
+                            NAVER 지로우 라멘 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop10')" class="close"><input type="button" value="close"></a>
+                </div>
+
+            <a href="#" onclick="openLayer('layerPop11',35 ,29)"><img src="사진\도원7.jpg" width="300px" height="300px"></a>
+                <div id="layerPop11">
+                     <h3>돈까스하우스</h3>
+                     <p>도원's pick</p>
+                     <p>
+                     여기는 진짜 와~..세상에서 젤맛있다. <br>
+                     돈가스랑 화덕피자 파스타 등 다양한 메뉴있고 찌맛이다. 찌..맛....<br>
+                     가게도 동화속에서 나올법한 외부 디자인이였다. <br> 
+                     멀지만 재방문의사 100%
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?entry=plt&id=36361257&query=%EB%8F%88%EA%B9%8C%EC%8A%A4%ED%95%98%EC%9A%B0%EC%8A%A4" target="_blank">
+                            NAVER 돈까스하우스 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop11')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop12',35 ,29)"><img src="사진\도원8.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop12">
+                     <h3>찰리주막</h3>
+                     <p>도원's pick</p>
+                     <p>
+                     색다른 막걸리와 다양한안주를 제공해준다.<br> 
+                     맛도 있었다. <br>
+                     막걸리 도수가 낮아서 맛잇게 술 마시고 싶은 사람에게 추천한다.<br>
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=109621122" target="_blank">
+                            NAVER 찰리주막 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop12')" class="close"><input type="button" value="close"></a>
+                 </div>
+            <!-- 도원 끝 -->
+
+            <!-- 아원 시작 -->
+            <a href="#" onclick="openLayer('layerPop13',35 ,29)" ><img src="사진\아원1.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop13">
+                     <h3>가장 맛있는 족발</h3>
+                     <p>아원's pick</p>
+                     <p>
+                     일반 족발보단 불족발이 훨씬 맛있다. <br>
+                     가격대비 밑반찬이 살짝쿵 부족함을 느꼈다. <br>
+                     불족발을 먹으러 재 방문의사 있다.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=36444472" target="_blank">
+                            NAVER 가장 맛있는 족발 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop13')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop14',35 ,29)"><img src="사진\아원2.jpg" width="300px" height="300px" ></a>
+                 <div id="layerPop14">
+                     <h3>R샐러드카페</h3>
+                     <p>아원's pick</p>
+                     <p>
+                     샐러드의 맛을 기대하고 가면 실망할 것이다. <br>
+                     주인분은 착하시고 싹싹하지만 정말 맛을 기대하면 실망할 것이다. <br>
+                     재방문 의사 0% ㅠㅠ
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?entry=plt&id=1240099865&query=R%EC%83%90%EB%9F%AC%EB%93%9C%EA%B9%8C%ED%8E%98" target="_blank">
+                         NAVER R샐러드카페 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop14')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop15',35 ,29)"><img src="사진\아원3.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop15">
+                     <h3>정통집</h3>
+                     <p>아원's pick</p>
+                     <p>
+                     고기와 양파와 김치가 정말 잘 조화를 이룬다. <br>
+                     같이 소주를 먹으면 딱 좋을 맛! <br>
+                     콘 옥수수와 마요네즈를 깻잎에 싸먹으면 존맛탱. <br>
+                     다 먹은후 볶음밥은 필수다. 학생들이 먹기에도 부담없는 가격!
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=1436483598" target="_blank">
+                            NAVER 정통집 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop15')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop16',35 ,29)"><img src="사진\아원4.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop16">
+                     <h3>조개대장부</h3>
+                     <p>아원's pick</p>
+                     <p>
+                     여러가지 해산물들이 잔뜩 들어있어 다양한 맛을 볼 수 있다. <br>
+                     이거 또한 소주와 먹으면 안성맞춤! <br>
+                     해산물 양도 많고 다 먹고 나서 남은 국물에 <br>
+                     칼국수 면을 추가해 넣어 먹으면 입가심으로 딱이다! <br>
+                     가족끼리 외식하러 와도 연령대를 불문하고 모두 만족할 곳이다.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=1104779880" target="_blank">
+                            NAVER 조개대장부 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop16')" class="close"><input type="button" value="close"></a>
+                 </div>
+            <!-- 아원 끝 -->
+
+            <!-- 예림 시작 -->
+            <a href="#" onclick="openLayer('layerPop17',35 ,29)"><img src="사진\예림1.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop17">
+                     <h3>99's서양밥집</h3>
+                     <p>예림's pick</p>
+                     <p>
+                     아니 찹스테이크만 먹었으면 별이 4개였는뎅..<br>
+                     그 살치살 시키면 소스가없어서..노맛..그치만 찹스테이크는 맛있어따.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=31887660" target="_blank">
+                            NAVER 99's서양밥집 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop17')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop18',35 ,29)"><img src="사진\예림2.jpg" width="300px" height="300px" ></a>
+                <div id="layerPop18">
+                     <h3>또보겠지떡볶이</h3>
+                     <p>예림's pick</p>
+                     <p>
+                     여기 떡볶이 집인데 볶음밥이랑 감자가 존맛이여...<br>
+                     일단 감자 청년다방발라버림 대존맛미쳐씀 내인생감쟈!!!!
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=37663862" target="_blank">
+                            NAVER 또보겠지떡볶이 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop18')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop19',35 ,29)"><img src="사진\예림3.jpg" width="300px" height="300px"></a>
+                <div id="layerPop19">
+                     <h3>켄비멘RIKI</h3>
+                     <p>예림's pick</p>
+                     <p>
+                     짭니다 개짜요. 그치만 머 적당히 해달라하면 괜찮을듯. <br>
+                     한국식라멘이 아니라 개진한 일본라멘같아욤. <br>
+                     그치만 사진찍으면 이뿜.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?entry=plt&id=37420192&query=%EC%BC%84%EB%B9%84%EB%A9%98RIKI" target="_blank">
+                            NAVER 켄비멘RIKI 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop19')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop20',35 ,29)"><img src="사진\예림4.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop20">
+                     <h3>경돼전(경기대돼지고기전문점)</h3>
+                     <p>예림's pick</p>
+                     <p>
+                      개맛있움. <br>
+                      가격도 17900원에 공기밥은 별도이긴하지만 여튼 마싰움!!!!<br>
+                      술 존나 마실 수 있는 맛!
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?entry=plt&id=1942855757&query=%EA%B2%BD%EB%8F%BC%EC%A0%84"target="_blank">
+                            NAVER 경돼전(경기대돼지고기전문점) 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop20')" class="close"><input type="button" value="close"></a>
+                 </div>
+            <!-- 예림 끝 -->
+
+            <!-- 준우 시작 -->
+            <a href="#" onclick="openLayer('layerPop21',35 ,29)" ><img src="사진\준우1.jpg" width="300px" height="300px"></a>
+                <div id="layerPop21">
+                    <h3>작렬 곱창</h3>
+                    <p>준우's pick</p>
+                    <p>
+                    맛은 있지만 곱창의 곱을 느낄 수 없는데 곱창이라고 해놓아서 별 세개 드립니다요.
+                    </p>
+                    <a href="https://store.naver.com/restaurants/detail?entry=plt&id=33060755&query=%EC%9E%91%EB%A0%AC%EA%B3%B1%EC%B0%BD" target="_blank">
+                            NAVER 작렬 곱창 더 알아보기
+                    </a>
+                    <a href="#" onclick="closeLayer('layerPop21')" class="close"><input type="button" value="close"></a>
+                </div>
+
+            <a href="#" onclick="openLayer('layerPop22',35 ,29)"><img src="사진\준우2.jpg" width="300px" height="300px" ></a>
+                <div id="layerPop22">
+                        <h3>어사출또</h3>
+                        <p>준우's pick</p>
+                        <p>
+                         맛 괜찮 가성비 괜찮 그냥 다 그럭저럭 괜찮았던 곳
+                        </p>
+                        <a href="https://store.naver.com/restaurants/detail?id=1606112051" target="_blank">
+                                NAVER 어사출또 더 알아보기
+                        </a>
+                    <a href="#" onclick="closeLayer('layerPop22')" class="close"><input type="button" value="close"></a>
+                </div>
+
+            <a href="#" onclick="openLayer('layerPop23',35 ,29)"><img src="사진\준우3.jpg" width="300px" height="300px"></a>
+                <div id="layerPop23">
+                        <h3>오베르망</h3>
+                        <p>준우's pick</p>
+                        <p>
+                        생활의 달인에도 나온 빵집으로 <br>
+                        가장 잘 나가는 치즈명란 바게트랑 크림치즈 바게트가 <br>
+                        바게트 임에도 불구하고 촉촉하고 부드러워서 완전 맛있었움. <br>
+                        사장님도 완전 착해서 또 가고 싶지만 멀어서 포기 ㅠㅠ </p>
+                        <a href="https://store.naver.com/restaurants/detail?id=1356115362" target="_blank">
+                        NAVER 오베르망 더 알아보기
+                        </a>
+                    <a href="#" onclick="closeLayer('layerPop23')" class="close"><input type="button" value="close"></a>
+                </div>
+    
+
+            <a href="#" onclick="openLayer('layerPop24',35 ,29)"><img src="사진\준우4.jpg" width="300px" height="300px"></a>
+                <div id="layerPop24">
+                    <h3> 홍익돈까스</h3>
+                    <p>준우's pick</p>
+                    <p>
+                    메뉴의 맛이나 종류들은 자주 볼 수 있던거지만 한끼 식사하고 나오기 좋은 곳인거 같움. <br>
+                    맛있음.
+                    </p>
+                    <a href="https://store.naver.com/restaurants/detail?id=33158548"target="_blank">
+                            NAVER 홍익돈까스 더 알아보기
+                    </a>
+                    <a href="#" onclick="closeLayer('layerPop24')" class="close"><input type="button" value="close"></a>
+                </div>
+
+            <a href="#" onclick="openLayer('layerPop25',35 ,29)"><img src="사진\준우5.jpg" width="300px" height="300px"></a>
+                <div id="layerPop25">
+                   <h3>836숯불갈비</h3>
+                   <p>준우's pick</p>
+                   <p>
+                    겜끝 존맛
+                   </p>
+                    <a href="#" onclick="closeLayer('layerPop25')" class="close"><input type="button" value="close"></a>
+                </div>
+            <!-- 준우 끝 -->
+
+            <!-- 샘미 선주 시작 -->
+            <a href="#" onclick="openLayer('layerPop26',35 ,29)" ><img src="사진\샘미1.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop26">
+                     <h3>쭈꾸미 브라더스</h3>
+                     <p>샘미's pick</p>
+                     <p>
+                     한 사람당 만원의 가격으로 4명에서 쭈꾸미 볶음은 물론이거니와 <br>
+                     커다란 새우 튀김, 고르곤 졸라 피자까지 즐길 수 있어 좋았다.<br>
+                     재방문 의사 100% 
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=37027794" target="_blank">
+                            NAVER 쭈꾸미 브라더스 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop26')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop27',35 ,29)"><img src="사진\샘미2.jpg" width="300px" height="300px" ></a>
+                 <div id="layerPop27">
+                     <h3>BURGEROOM181</h3>
+                     <p>샘미's pick</p>
+                     <p>
+                     다양한 수제 햄버거 종류가 준비되어 있으나 중간 중간 별로인 메뉴가 섞여있음....<br>
+                     메뉴가 사람의 입맛에 따라 호불호가 갈리니 잘 선택해야한다!!!
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=33244070" target="_blank">
+                            NAVER BURGEROOM181 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop27')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop28',35 ,29)"><img src="사진\샘미3.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop28">
+                     <h3>네네 스노윙 치킨</h3>
+                     <p>샘미's pick</p>
+                     <p>
+                     위에 뿌려져 있는 치즈 가루와 살짝 매콤한 소스가 아주 잘어울린다!!!
+                     </p>
+                     <a href="https://nenechicken.com/" target="_blank">
+                            네네치킨 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop28')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+            <a href="#" onclick="openLayer('layerPop29',35 ,29)"><img src="사진\선주1.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop29">
+                     <h3>버거크루</h3>
+                     <p>선주's pick</p>
+                     <p>
+                     JMTGR 치즈스틱 짱
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?entry=plt&id=312037358&query=%EB%B2%84%EA%B1%B0%ED%81%AC%EB%A3%A8" target="_blank">
+                            NAVER 버거크루 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop29')" class="close"><input type="button" value="close"></a>
+                 </div>
+             <!-- 샘미 선주 끝 -->
+
+             <!-- 은서 주희 시작 -->
+             <a href="#" onclick="openLayer('layerPop30',35 ,29)" ><img src="사진\은서1.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop30">
+                     <h3>버거인</h3>
+                     <p>은서's pick</p>
+                     <p>
+                     줄이 길어서 기다리느라 힘들었지만 기다린 보람이 있다고 느낄만큼 맛있었다. <br>
+                     만원도 안 되는 가격에 이렇게 고급스러운 수제버거를 먹을 수 있다는 사실이 놀라웠다.<br>
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?entry=plt&id=36314854&query=%EB%B2%84%EA%B1%B0%EC%9D%B8" target="_blank">
+                            NAVER 버거인 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop30')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop31',35 ,29)"><img src="사진\은서2.jpg" width="300px" height="300px" ></a>
+                  <div id="layerPop31">
+                     <h3>미호식당 </h3>
+                     <p>은서's pick</p>
+                     <p>
+                     새우가 너무 싱싱하고 맛있었다. <br>
+                     밥도 간이  적절하게 되어있어서 그냥 먹어도 맛있지만 새우장과 같이 먹으니 더 맛있었다. <br>
+                     하지만 양이 조금 작아서 다먹었는데도 살짝 배가고팠다.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?entry=pll&id=1220589710&query=%EB%AF%B8%ED%98%B8%EC%8B%9D%EB%8B%B9" target="_blank">
+                            NAVER 미호식당 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop31')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop32',35 ,29)"><img src="사진\은서3.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop32">
+                     <h3>띵똥와플</h3>
+                     <p>은서's pick</p>
+                     와플이 바로 만들어져서 나오는것이기 때문에 줄이 길지만 기다릴 수있는 맛이다. <br>
+                     가격도 싸다. <br>
+                     생크림도 맛있고 잼도 맛있고 과일도 맛있다!!
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=36667888" target="_blank">
+                            NAVER 띵똥와플 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop32')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop33',35 ,29)"><img src="사진\은서4.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop33">
+                     <h3>장충동족발</h3>
+                     <p>은서's pick</p>
+                     <p>
+                     야식으로 최고! 다른 말은 필요없다.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=1250629436" target="_blank">
+                            NAVER 장충동족발 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop33')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop34',35 ,29)" ><img src="사진\은서5.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop34">
+                     <h3>몬스터 플레이스</h3>
+                     <p>은서's pick</p>
+                     <p>
+                     토핑된 과일은 싱싱하고 맛있다. <br>
+                     근데 아래에 있는 요거트가 살짝 목막힌다.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=1732861163"  target="_blank">
+                            NAVER 몬스터 플레이스 더 알아보기</a>
+                     <a href="#" onclick="closeLayer('layerPop34')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop35',35 ,29)"><img src="사진\은서6.jpg" width="300px" height="300px" ></a>
+                 <div id="layerPop35">
+                     <h3>3km</h3>
+                     <p>은서's pick</p>
+                     <p>
+                     칵테일 맛은 그냥 그렇지만 사장님이 매우 친절하시다. <br>
+                     서비스도 많이 주신다^^!
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=1154391322" target="_blank">
+                            NAVER 3km 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop35')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop36',35 ,29)"><img src="사진\주희1.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop36">
+                     <h3>아마스빈</h3>
+                     <p>주희's pick</p>
+                     <p>
+                     말이 필요없는 오레오 쉐이크!! <br>
+                     그러나 펄과 안어울리는 메뉴도 있으니 조심!
+                     </p>
+                     <a href="https://www.amasvin.com/" target="_blank">
+                            아마스빈 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop36')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop37',35 ,29)"><img src="사진\주희2.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop37">
+                     <h3>청어람</h3>
+                     <p>주희's pick</p>
+                     <p>
+                     근처에 있으면 가끔씩 가겠지만 멀링있으면 굳이 찾아갈 맛은 아니다!
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=13152536" target="_blank">
+                            NAVER 청어람 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop37')" class="close"><input type="button" value="close"></a>
+                 </div>
+             <!-- 은서 주희 끝 -->
+
+             <!-- 윤근 시작 -->
+             <a href="#" onclick="openLayer('layerPop38',35 ,29)" ><img src="사진\윤근1.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop38">
+                     <h3>라이너스 바베큐</h3>
+                     <p>윤근's pick</p>
+                     <p>
+                     가격대가 조금 있다 하지만 여유가 있다면 정말 맛있고 분위기 있는 음식점!!
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=35209321" target="_blank">
+                            NAVER 라이너스 바베큐 더 알아보기
+                     </a>
+                      <a href="#" onclick="closeLayer('layerPop38')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop39',35 ,29)"><img src="사진\윤근2.jpg" width="300px" height="300px" ></a>
+                 <div id="layerPop39">
+                     <h3>도란도란 곱창 </h3>
+                     <p>윤근's pick</p>
+                     <p>
+                     가격이 저렴하다. <br>
+                     정말 맛있고 치즈 등 메뉴도 다양
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?entry=plt&id=19885725&query=%EB%8F%84%EB%9E%80%EB%8F%84%EB%9E%80%EA%B3%B1%EC%B0%BD" target="_blank">
+                            NAVER 도란도란 곱창 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop39')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop40',35 ,29)"><img src="사진\윤근3.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop40">
+                     <h3>마녀커리크림치킨</h3>
+                     <p>윤근's pick</p>
+                     가격 평범하다. <br>
+                     카레와 치킨이 조화된게 정말 맛있었다!!
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=37634240" target="_blank">
+                            NAVER 마녀커리크림치킨 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop40')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop41',35 ,29)"><img src="사진\윤근4.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop41">
+                     <h3>혼다라멘</h3>
+                     <p>윤근's pick</p>
+                     <p>
+                     가격 저렴 토마토 장아찌도 맛있고 혼밥 하기좋으며 분위기 서비스도 좋다.
+                     </p>
+                     <a href="http://hondaramen.com/?NaPm=ct%3Djwnq7uoo%7Cci%3D0uA1002tSdHqC1fz6Lkb%7Ctr%3Dbrnd%7Chk%3D2286e9fbcd6b7e000804a3f8532919214a3bd7fd" target="_blank">
+                            혼다라멘 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop41')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop42',35 ,29)" ><img src="사진\윤근5.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop42">
+                     <h3>일식탁</h3>
+                     <p>윤근's pick</p>
+                     <p>
+                      가격대가 약간 있지만 분위기 맛은 보장된다.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?entry=plt&id=1839161443&query=%EC%9D%BC%EC%8B%9D%ED%83%81" target="_blank">
+                            NAVER 일식탁 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop42')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop43',35 ,29)"><img src="사진\윤근6.jpg" width="300px" height="300px" ></a>
+                 <div id="layerPop43">
+                     <h3>꼬치집</h3>
+                     <p>윤근's pick</p>
+                     <p>
+                     다양한 꼬치 종류와 간단하게 술 마시기 좋다.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=264233173" target="_blank">
+                            NAVER 꼬치집 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop43')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop44',35 ,29)"><img src="사진\윤근7.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop44">
+                     <h3>미로곱창</h3>
+                     <p>윤근's pick</p>
+                     <p>
+                     곱창의 종류가 많아 골라 먹을수 있다. 
+                     유명하고 맛도 있으며 사진은 백곱창이다.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?entry=plt&id=37483560&query=%EB%AF%B8%EB%A1%9C%EA%B3%B1%EC%B0%BD" target="_blank">
+                            NAVER 미로곱창 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop44')" class="close"><input type="button" value="close"></a>
+                 </div>
+             <!-- 윤근 끝 -->
+
+             <!-- 윤건 예림2 명주 시작 -->
+            <a href="#" onclick="openLayer('layerPop45',35 ,29)" ><img src="사진\윤건1.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop45">
+                     <h3>큐슈라멘마차</h3>
+                     <p>윤건's pick</p>
+                     <p>
+                        옛날 이름은 큐슈라멘마차이고 지금 이름은 휘니치로이다. <br>
+                        담백하고 단점없는 깔끔한 라면 맛!
+                      </p>
+                      <a href="https://store.naver.com/restaurants/detail?entry=plt&id=37895611&query=%ED%81%90%EC%8A%88%EB%9D%BC%EB%A9%98%EB%A7%88%EC%B0%A8" target="_blank">
+                            NAVER 큐슈라멘마차 더 알아보기
+                      </a>
+                     <a href="#" onclick="closeLayer('layerPop45')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop46',35 ,29)"><img src="사진\명주1.jpg" width="300px" height="300px" ></a>
+                 <div id="layerPop46">
+                     <h3>엽기 떡볶이</h3>
+                     <p>명주's pick</p>
+                     <p>
+                     명주 미식회<br>
+                     엽떡은 진짜 정말 최고다 장사 망할 일은 없을 거 같이 맛있다.<br>
+                     여러가지 토핑도 최고 ㅜㅜ
+                     </p>
+                     <a href="http://www.yupdduk.com/" target="_blank">
+                        엽기 떡볶이 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop46')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop47',35 ,29)"><img src="사진\예림5.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop47">
+                     <h3>고메식당</h3>
+                     <p>예림's pick</p>
+                     <p>
+                        맛은 있었으나 연어가 다함,고추냉이 개맵다 조금 넣을 것! <br>
+                        사이드 맛있당.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?entry=plt&id=38590197&query=%EA%B3%A0%EB%A9%94%EC%8B%9D%EB%8B%B9" target="_blank">
+                            NAVER 고메식당 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop47')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop48',35 ,29)"><img src="사진\예림6.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop48">
+                     <h3>피오니</h3>
+                     <p>예림's pick</p>
+                     <p>
+                     존나맛있다. 내 인생 케잌 찾아버림.  <br>
+                     생크림은 별루 달지 않아염. 그치만 딸기랑 빵이랑 개잘어울림. <br>
+                     다먹구 한판사갔어여!
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=19866326" target="_blank">
+                            NAVER 피오니 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop48')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop49',35 ,29)" ><img src="사진\예림7.jpg" width="300px" height="300px"></a>
+                 <div id="layerPop49">
+                     <h3>비스트로주라</h3>
+                     <p>예림's pick</p>
+                     <p>
+                     부채살스테이크정식 먹을만 합니당!  <br>
+                     찍어먹눈 소스가 맛있는데 더 달라하면 줘용. <br>
+                     샐러드도 맛있는데 파스타가 좀 아쉽..
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?entry=plt&id=364996702&query=%EB%B9%84%EC%8A%A4%ED%8A%B8%EB%A1%9C%EC%A3%BC%EB%9D%BC" target="_blank">
+                            NAVER 비스트로주라 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop49')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <a href="#" onclick="openLayer('layerPop50',35 ,29)"><img src="사진\예림8.jpg" width="300px" height="300px" ></a>
+                 <div id="layerPop50">
+                     <h3>르브레드랩</h3>
+                     <p>예림's pick</p>
+                     <p>
+                     인스타에서 보고 달려가서 샀는데 맛은 고만고만..  <br>
+                     예상 가능한 그대로 맛.
+                     </p>
+                     <a href="https://store.naver.com/restaurants/detail?id=1333204839" target="_blank">
+                            NAVER 르브레드랩 더 알아보기
+                     </a>
+                     <a href="#" onclick="closeLayer('layerPop50')" class="close"><input type="button" value="close"></a>
+                 </div>
+
+             <!-- 윤건 예림2 끝 -->
+
+             <!-- 효정 시작 -->
+            <a href="#" onclick="openLayer('layerPop51',35 ,29)" ><img src="사진\효정1.jpg" width="300px" height="300px"></a>
+            <div id="layerPop51">
+                <h3>자라쿠라멘</h3>
+                <p>효정's pick</p>
+                <p>
+                 국물이 너무 마싰음 ㅠㅠ 밥말아먹고싶음!
+                 </p>
+                 <a href="https://store.naver.com/restaurants/detail?entry=plt&id=38531262&query=%EC%9E%90%EB%9D%BC%EC%BF%A0%EB%9D%BC%EB%A9%98" target="_blank">
+                       NAVER 자라쿠라멘 더 알아보기
+                 </a>
+                <a href="#" onclick="closeLayer('layerPop51')" class="close"><input type="button" value="close"></a>
+            </div>
+
+        <a href="#" onclick="openLayer('layerPop52',35 ,29)"><img src="사진\효정2.jpg" width="300px" height="300px" ></a>
+            <div id="layerPop52">
+                <h3>빨봉분식</h3>
+                <p>효정's pick</p>
+                <p>
+                <p>
+                    크림떡볶이랑 샐러드 우동! <br>
+                    샐러드 우동이 개지림요ㅠㅠㅠㅠㅠㅠㅠ
+                </p>
+                <a href="https://store.naver.com/restaurants/detail?id=37483339" target="_blank">
+                    NAVER 빨봉분식 더 알아보기
+             </a>
+                <a href="#" onclick="closeLayer('layerPop52')" class="close"><input type="button" value="close"></a>
+            </div>
+            <!-- 효정 끝 -->
+
+         </div>
+        </center>
+        </section>
+   
+        <footer>
+            <div id="footer">
+                 <small>201944077 1학년 c반 이샘미</small> 
+            </div>             
+        </footer>
+</body>
